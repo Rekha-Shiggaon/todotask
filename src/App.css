@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.cards{
+    background-color:lightseagreen;
+    margin: 10px;
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.task{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-around;
+     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 5px;
+    align-items: center;
+}
+.btn1 button{
+    background-color: bisque;
+    color: black;
+    width: 70px;
+    height: inherit;
+    padding: 5px;
+    border: none;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.mb-3{
+margin: 10px;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.input-group input{
+    background-color:lightgreen;
+    border: none;
+     width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.input-group button{
+    background-color: bisque;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-check-label{
+    padding: 10px;
+}
+.edit button{
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+}
+
+.edit input{
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    width: 240px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+.completed{
+
+    text-transform: capitalize;
+}
